@@ -88,6 +88,10 @@ const headers = [
     source: TRACKER_SCRIPT,
     headers: trackerHeaders,
   },
+  {
+    source: '/script-fast.js',
+    headers: trackerHeaders,
+  },
 ];
 
 const rewrites = [];
